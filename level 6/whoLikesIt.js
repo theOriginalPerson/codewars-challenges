@@ -21,17 +21,17 @@ function likes(names) {
   
   if (names.length === 0) {
     return noOne;
-  }
+    }
   else if (names.length === 1)  {
     return likes;
-  }
+    }
   else if (names.length === 2) {
     return like;
-  }
+    }
   else if (names.length === 3) {
     return like2;
-  }
+    }
   else if (names.length > 3) {
     return twoOthers;
-  }
+    }
   }
